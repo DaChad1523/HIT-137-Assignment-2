@@ -1,7 +1,7 @@
 import os, csv #Operating System and Comma Separated Values (Allow to read csv files)
 csv_D=r'C:\Study\WINT01 Bachelor of IT\First Year Sem2\HIT137 Software now\Assignment 2' #Change this to your file location 
 
-#It will create another text file and posted within the folder of your selected folder of the script you have created ^
+#It will create another text file and posted within the folder of your selected folder of the script you have created above
 output_file = 'output.txt'
 
 with open(output_file, 'w', encoding='utf-8') as txt_file: 
