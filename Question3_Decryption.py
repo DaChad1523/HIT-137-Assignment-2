@@ -66,4 +66,4 @@ def decrypt(text, key):
 
 key = 13
 decrypted_code = decrypt(encrypted_code, key)
-print("Decrypted:", decrypted_code)
+print(decrypted_code)
